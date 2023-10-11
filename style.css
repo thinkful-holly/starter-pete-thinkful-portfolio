@@ -71,6 +71,8 @@ img {
 .image-circle {
   border: 2px solid #003049;
   border-radius: 50%;
+  width: 100px; /* update width as needed */
+  height: 100px;
 }
 
 /* Footer */
@@ -109,6 +111,7 @@ hr {
 }
 
 .image-container {
-  max-width: 200px;  
-  margin-right: 20px; 
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
 }
