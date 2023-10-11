@@ -82,3 +82,22 @@ footer {
 hr {
   border: 1px solid black;
 }
+
+/* more changes */
+
+.project-container {
+  display: flex;
+  gap: 20px; /* Adjust the spacing between projects as needed */
+  flex-wrap: nowrap; /* stop projects from wrapping to the next  */
+  overflow-x: auto; /* Enable horizontal scrolling if the content overflows */
+}
+
+.project-container section {
+  min-width: 300px; /* Set a minimum width for each project section */
+  border: 1px solid #ccc; /* Add a border for separation (optional) */
+  padding: 10px;
+}
+
+.project-container p {
+  font-size: 14px; /* font sixe per instructions  */
+}
