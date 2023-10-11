@@ -101,3 +101,14 @@ hr {
 .project-container p {
   font-size: 14px; /* font sixe per instructions  */
 }
+
+.about-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.image-container {
+  max-width: 200px;  
+  margin-right: 20px; 
+}
