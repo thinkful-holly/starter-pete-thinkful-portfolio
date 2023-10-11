@@ -55,9 +55,15 @@ a:hover {
   color: #f77f00;
 }
 
+         /* update the navigation bar (nav) */
+nav {
+  display: flex;
+  align-items: center;
+  
+}
 nav a {
-  text-decoration: none;
-  margin: 0;
+ text-decoration: none;
+  margin: 0 20px;
 
 }
 
